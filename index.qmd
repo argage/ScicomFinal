@@ -51,6 +51,10 @@ Hint: If you cannot meet 2500 words in your essay, add more functions/formulas/c
 - [ ] Configure the repository to publish a webpage using GitHub pages
     
     * [How to create GitHub Pages](https://cd-public.github.io/scicom/A2_pages.html)
+    
+        OR
+
+    * Use the provided .github/workflows/static.yml to publish your index.html as a webpage.
 
 - [ ] Create a Quarto webpage file providing a solution.
     
@@ -59,8 +63,6 @@ Hint: If you cannot meet 2500 words in your essay, add more functions/formulas/c
     - [ ] Write Quarto (.qmd) file and save it on GitHub and name it index.qmd for ease of use.
 
     - [ ] Use quarto render to create an index.html file.
-
-    - [ ] Use the provided .github/workflows/static.yml to publish your index.html as a webpage.
 
 - [ ] Include Matplotlib graphics illustrating your solution.
     
