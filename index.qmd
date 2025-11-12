@@ -1,0 +1,96 @@
+---
+title: "Final Checklist"
+format: 
+    html:
+        theme: journal
+        css: styles.css
+embed-resources: true
+---
+
+## Essay Requirements
+
+Graded on AP Scale as an argument essay in **support (or against) scientific computing.**
+
+**Good:**
+
+* Presenting your thesis and explaining why you are taking that position.
+    i.e.
+    
+    * "Scientific computing is great for solving ___, by using data to do..."
+    
+    * "While scientific computing can be good for many uses, it fails to..."
+
+* Supporting your thesis with *every* piece of evidence you present.
+    
+    * Explain how every piece of code, graph, and table aligns with your point.
+
+* Organizing and supporting an argument as a line of reasoning composed of multiple supporting claims, each with adequate evidence that is clearly explained.
+
+**Bad:**
+
+* Just restating or summarizing your thesis instead of making specific, relevant claims
+
+* No or minimal evidence
+
+* Evidence is too general
+
+* A bad line of reasoning 
+
+    * Perhaps jumping all over the place with evidence that doesn't flow smoothly
+
+For full details, [here is the AP grading scale](https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-frqs-1-2-3-scoring-rubrics.pdf)- argumentative is at the end of the PDF.
+
+Hint: If you cannot meet 2500 words in your essay, add more functions/formulas/code relevant to what you have as more evidence either for or against scientific computing.
+
+## Technical Requirements
+
+- [ ] Create a GitHub repository.
+    
+    * [Git lecture- info on GitHub as well](https://cd-public.github.io/scicom/04_git.html)
+
+- [ ] Configure the repository to publish a webpage using GitHub pages
+    
+    * [How to create GitHub Pages](https://cd-public.github.io/scicom/A2_pages.html)
+
+- [ ] Create a Quarto webpage file providing a solution.
+    
+    * [Quarto Lecture](https://cd-public.github.io/scicom/0E_quarto.html)
+
+    - [ ] Write Quarto (.qmd) file and save it on GitHub and name it index.qmd for ease of use.
+
+    - [ ] Use quarto render to create an index.html file.
+
+    - [ ] Use the provided .github/workflows/static.yml to publish your index.html as a webpage.
+
+- [ ] Include Matplotlib graphics illustrating your solution.
+    
+    * [Matplotlib Lecture](https://cd-public.github.io/scicom/06_matplotlib.html)
+
+- [ ] Include LaTeX equations generated with SymPy in your solution.
+
+    * [Latex in SymPy Lecture](https://cd-public.github.io/scicom/0A_sympy.html#latex)
+
+    * Hint: Use `sympy.latex()` function to print your SymPy equation as Latex code. You can use [QuickLatex](https://www.quicklatex.com/) to double check that it will render correctly. 
+
+## Quarto webpage requirements
+
+- [ ] 2500+ words
+
+    * Assess this with the word count command in your terminal by running `wc index.qmd`
+
+- [ ] At least one equation using sympy
+
+    * [SymPy Lecture](https://cd-public.github.io/scicom/0A_sympy.html)
+
+- [ ] At least one table using pandas
+
+    * [Pandas Lecture](https://cd-public.github.io/scicom/08_pandas.html)
+
+    * Print your table in md format using `.to_markdown()`
+
+- [ ] At least one graph using matplotlib.
+
+    * [Matplotlib Lecture](https://cd-public.github.io/scicom/06_matplotlib.html)
+
+**Late submissions and submissions not meeting minimum requirements will not be accepted.**
+

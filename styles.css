@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+}
+main.content {
+  background: linear-gradient(to right, #ffe5e9, #d89890);
+  padding: 2em;
+  border-radius: 12px;
+}
+
+a {
+  color: #ff0088; /* deep pink */
+}
+
+/* Optional: change color when hovering */
+a:hover {
+  color: #9d136a;
+  text-decoration: underline;
+}
+body {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Faesthetic-abstract-x9hfd32k42o9rmry.jpg&f=1&nofb=1&ipt=9cdc20f2419254b98d02cc20282b8a5190ec1c0fac5d8b3797e3bc23bf998729");
+  background-size: cover;          /* makes it fill the page */
+  background-repeat: no-repeat;    /* prevents tiling */
+  background-attachment: fixed;    /* keeps image fixed while scrolling */
+  background-position: center;     /* centers the image */
+}
